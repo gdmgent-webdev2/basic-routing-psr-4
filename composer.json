@@ -1,0 +1,20 @@
+{
+  "name": "gdmgent-webdev2/basic-routing-psr-4",
+  "description": "Simple example to learn basics of composer & routing",
+  "require": {
+    "php": ">=8.1.0"
+  },
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frederick Roegiers",
+      "email": "frederick@rogerthat.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
